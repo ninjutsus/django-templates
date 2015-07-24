@@ -56,7 +56,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'project.urls'  # <----------------change to name project currently
+ROOT_URLCONF = 'name_project.urls'  # <----------------change to name project currently
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'project.wsgi.application'  # <----------------change to name project currently
+WSGI_APPLICATION = 'name_project.wsgi.application'  # <----------------change to name project currently
 
 
 # Database
